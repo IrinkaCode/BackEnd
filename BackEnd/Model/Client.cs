@@ -4,7 +4,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace BackEnd
+namespace BackEnd.Model
 {
     public partial class Client
     {

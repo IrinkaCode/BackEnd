@@ -2,7 +2,7 @@
 using System.Collections.Generic;
 using Microsoft.EntityFrameworkCore;
 
-namespace BackEnd;
+namespace BackEnd.Model;
 
 public partial class PostgresContext : DbContext
 {
