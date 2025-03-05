@@ -8,7 +8,7 @@ public partial class PostgresContext : DbContext
 {
     public PostgresContext()
     {
-
+        Database.EnsureCreated();
     }
 
     public PostgresContext(DbContextOptions<PostgresContext> options)
